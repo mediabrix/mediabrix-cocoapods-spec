@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mediabrix/mediabrix-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Muhammad Zubair' => 'muhammad@mediabrix.com' }
-  s.source           = { :git => 'https://github.com/mediabrix/mediabrix-ios-sdk.git', :branch => "master", :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mediabrix/mediabrix-ios-sdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
 
