@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MediaBrix'
-  s.version          = '0.1.0'
+  s.version          = '1.8.0.028'
   s.summary          = 'A short description of MediaBrix.'
 
 # This description is used to generate tags and improve search results.
