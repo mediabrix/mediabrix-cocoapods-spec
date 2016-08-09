@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
 #s.source_files = 'MediaBrix/Classes/MediaBrix.h'
   s.vendored_libraries = "MediaBrix/MediaBrix/Classes/libMediaBrix.a"
   s.source_files = 'MediaBrix/MediaBrix/Classes/MediaBrix.h'
-  s.libraries = 'libxml2.tbd'
+  s.libraries = 'xml2'
   #s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 end
