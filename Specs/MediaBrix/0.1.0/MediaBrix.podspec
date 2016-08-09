@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.vendored_libraries = "MediaBrix/MediaBrix/Classes/libMediaBrix.a"
   s.source_files = 'MediaBrix/MediaBrix/Classes/MediaBrix.h'
-  s.xcconfig = { 'OTHER_LINKER_FLAGS' => '-lxml2' }
+  spec.ios.library = 'xml2'
 
 
 end
