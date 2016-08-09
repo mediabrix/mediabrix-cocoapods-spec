@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
 #s.source_files = 'MediaBrix/Classes/MediaBrix.h'
-  s.vendored_libraries = "MediaBrix/Classes/libMediaBrix.a"
-  s.source_files = 'MediaBrix/Classes/MediaBrix.h'
+  s.vendored_libraries = "MediaBrix/MediaBrix/Classes/libMediaBrix.a"
+  s.source_files = 'MediaBrix/MediaBrix/Classes/MediaBrix.h'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 end
