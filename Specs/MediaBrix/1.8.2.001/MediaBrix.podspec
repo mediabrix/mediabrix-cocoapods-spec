@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MediaBrix'
-  s.version          = '1.8.1.000'
+  s.version          = '1.8.2.001'
   s.summary          = 'A short description of MediaBrix.'
   s.homepage         = 'http://www.mediabrix.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
